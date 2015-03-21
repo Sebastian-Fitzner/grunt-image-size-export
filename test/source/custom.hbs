@@ -1,0 +1,11 @@
+{{#each breakpoints}}
+"{{this}}":
+{{#each ../images}}
+	{{#is ../this breakpoint}}
+	-- "name": "{{ name }}"
+	- "width": {{ width }}
+	- "height": {{ height }}
+	- "path": "{{ path }}"
+	{{/is}}
+{{/each}}
+{{/each}}
