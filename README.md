@@ -178,6 +178,12 @@ imageSizeExport: {
 			output: 'test/expected/simple.json'
 		}
 	},
+	custom: {
+		options: {
+			output: 'test/expected/custom.yaml',
+			template: 'test/source/custom.hbs'
+		}
+	},
 	folders: {
 		options: {
 			output: 'test/expected/folders.json',
