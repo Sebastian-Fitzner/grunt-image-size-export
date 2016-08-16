@@ -1,6 +1,6 @@
 {
 	"name": "grunt-image-size-export",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Export your image informations into json. Provide your own handlebars template to export to any format and file structure you need.",
 	"homepage": "https://github.com/Sebastian-Fitzner/grunt-image-size-export",
 	"repository": "https://github.com/Sebastian-Fitzner/grunt-image-size-export",
@@ -27,7 +27,7 @@
 		"load-grunt-tasks": "^2.0.0"
 	},
 	"peerDependencies": {
-		"grunt": "~0.4.1"
+		"grunt": ">=0.4.1"
 	},
 	"scripts": {
 		"test": "grunt test"
